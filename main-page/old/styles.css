@@ -1,0 +1,30 @@
+body {text-align: left; background: #FEAAFF; padding: 0; 10%; 0; 10%}
+
+p {font-family: Arial, Helvetica, sans-serif; font-size: 1.4em; color: #AE43FF}
+h2 {font-family: Arial, Helvetica, sans-serif; font-size: 2.5em; font-weight: bold; color: #FF4FF7; width: 70%}
+
+a.list {font-family: Arial, Helvetica, sans-serif; font-size: 1.8em; font-weight: normal; text-decoration: none; line-height: 22px}
+a.list:link {color: #be53d4}
+a.list:hover {color: #9e45b0; text-decoration: none; background: #E34AE5}
+
+a.listcurrent {font-family: Arial, Helvetica, sans-serif; font-size: 1.8em; font-weight: bold; text-decoration: none; line-height: 22px, background: #BC63FF}
+a.listcurrent:link {color: #be53d4, background: #BC63FF}
+a.listcurrent:hover {color: #9e45b0; text-decoration: none; background: #E34AE5}
+
+a.inline {font-family: Arial, Helvetica, sans-serif; font-size: 1em; text-decoration: underline}
+a.inline:link {color: #9F2Be9}
+a.inline:visited {color: #B939E4}
+a.inline:hover {color: #9e45b0; text-decoration: underline; background: transparent}
+
+a.hidden {font-family: Arial, Helvetica, sans-serif; font-size: 1em; text-decoration: none}
+a.hidden:link {color: #ac4cf5; text-decoration: none}
+a.hidden:visited {color: #ac4cf5; text-decoration: none}
+a.hidden:hover {color: #ac4cf5; text-decoration: none}
+a.hidden:active {color: #ac4cf5; text-decoration: none}
+
+
+div.banner {width: 100%; color: #A561FA; background: #E793FF; height: 45px; background-size: cover; font-family: sans-serif; font-size: 2em; font-weight: bold; text-decoration: underline; text-align: center; padding: 2%; 2%; 2%; 2%}
+
+div.main {width: 75%; padding: 0; 5%; 0; 0}
+
+div.sidebar {width: 20%; float: right; text-align: center; padding: 4%}
