@@ -25,6 +25,6 @@ a.hidden:active {color: #ac4cf5; text-decoration: none}
 
 div.banner {width: 100%; color: #A561FA; background: #E793FF; height: 45px; background-size: cover; font-family: sans-serif; font-size: 2em; font-weight: bold; text-decoration: underline; text-align: center; padding: 2%; 2%; 2%; 2%}
 
-div.main {width: 75%; padding: 0; 5%; 0; 0}
+div.main {width: 75%; padding: 0; 5%; 0; 0; text-align: center}
 
 div.sidebar {width: 20%; float: right; text-align: center; padding: 4%}
