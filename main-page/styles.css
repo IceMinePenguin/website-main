@@ -1,0 +1,44 @@
+body {
+    text-align: left;
+    background: #1d0133;
+    padding: 0, 10%, 0, 10%
+}
+
+p {
+    font-family: Arial; sans-serif;
+    color: #ba78c2;
+}
+h1 {
+    font-family: Arial, sans-serif;
+    color: #a80be0
+}
+div {
+    text-align: center;
+    font-size: 3.6vw;
+}
+
+/* idk what this does
+div:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+*/
+
+/*This is to flip text upside down*/
+.container {
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    /*height: 100vh;*/
+}
+
+.backwards {
+    display: inline;
+    /*font-size: 100px;*/
+    -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+}
