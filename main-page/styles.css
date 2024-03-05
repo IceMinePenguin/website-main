@@ -22,7 +22,7 @@ ul {
     color: #ba78c2;
     font-weight: bold
 }
-div {
+div.landing {
     text-align: center;
     font-size: 3.6vw;
 }
@@ -46,9 +46,13 @@ div:after {
 .backwards {
     display: inline;
     /*font-size: 100px;*/
-    -moz-transform: scale(-1, -1);
-    -webkit-transform: scale(-1, -1);
-    -o-transform: scale(-1, -1);
-    -ms-transform: scale(-1, -1);
-    transform: scale(-1, -1);
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+}
+ul.landing {
+    font-family: Arial; sans-serif;
+    color: #a80be0;
 }
