@@ -1,5 +1,5 @@
 body {
-    text-align: left;
+    text-align: center;
     background: #1d0133;
     padding: 0, 10%, 0, 10%
 }
@@ -7,10 +7,20 @@ body {
 p {
     font-family: Arial; sans-serif;
     color: #ba78c2;
+    font-weight: bold
 }
 h1 {
     font-family: Arial, sans-serif;
     color: #a80be0
+}
+h2 {
+    font-family: Arial, sans-serif;
+    color: #c54df0
+}
+ul {
+    font-family: Arial; sans-serif;
+    color: #ba78c2;
+    font-weight: bold
 }
 div {
     text-align: center;
