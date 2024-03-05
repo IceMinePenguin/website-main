@@ -20,8 +20,8 @@ h2 {
 }
 
 a.inline {font-family: Arial, Helvetica, sans-serif; text-decoration: underline}
-a.inline:link {color: #9F2Be9}
-a.inline:visited {color: #B939E4}
+a.inline:link {color: #e042c3}
+a.inline:visited {color: #b03499}
 a.inline:hover {color: #9e45b0; text-decoration: underline; background: transparent}
 
 ul {
