@@ -39,7 +39,7 @@ img.header_logo {
 }
 
 /*header title words*/
-a.header_title {font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: #1d0133; background: transparent}
+a.header_title {font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: #1d0133; background: transparent; padding-right: 1em}
 
 /*generic inline links*/
 a.inline {font-family: Arial, Helvetica, sans-serif; text-decoration: underline}
