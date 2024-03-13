@@ -1,8 +1,11 @@
 body {
-    font-size: 2em;
     text-align: center;
     background: #1d0133;
-    padding: 0, 10%, 0, 10%
+    padding: 0, 10%, 0, 10%;
+    min-height: 98vh;
+    flex-direction: column;
+    display: flex;
+
 }
 
 p {
@@ -22,6 +25,7 @@ h2 {
 
 /*header box*/
 header {
+    font-size: 2em;
     font-family: Arial, sans-serif;
     text-align: left;
     color: #1d0133;
@@ -30,6 +34,22 @@ header {
     padding-bottom: 0.75em;
     padding-top: 0.0em
 
+}
+
+main {
+    font-size: 2em;
+    flex: 1;
+}
+
+footer {
+    color: #1d0133;
+    background: #a80be0;
+    /*position: fixed;*/
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: auto;
 }
 
 div.list {

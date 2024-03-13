@@ -17,5 +17,14 @@
     <h2>this server is hosted using:</h2>
     <p>one digitalocean droplet as a proxy for a "server" with:<div class="list"><ul><li>an i5 7400</li><li>intel hd graphics 630</li><li>12 gb of 2400 MT/s RAM</li><li>a 1tb sata 6 ssd</li><li>asus b150i motherboard</li><li>in a cardboard box</li></ul></div></p>
     </main>
+    <footer>
+      <script>
+      window.onload = function lastChanged() {
+        let x = "last changed: " + document.lastModified;
+        document.getElementById("modifed-date").innerHTML = x;
+      }
+      </script>
+      <a class="header_title" href="https://git.meows.gay/eris/website-main/src/branch/main/main-page"><u>source</u></a><br><a id="modifed-date"></a>
+    </footer>
   </body>
 </html>

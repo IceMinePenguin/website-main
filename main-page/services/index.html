@@ -31,5 +31,14 @@
       this website
       </p>
     </main>
+    <footer>
+      <script>
+      window.onload = function lastChanged() {
+        let x = "last changed: " + document.lastModified;
+        document.getElementById("modifed-date").innerHTML = x;
+      }
+      </script>
+      <a class="header_title" href="https://git.meows.gay/eris/website-main/src/branch/main/main-page"><u>source</u></a><br><a id="modifed-date"></a>
+    </footer>
   </body>
 </html>
