@@ -1,12 +1,12 @@
 <link rel="stylesheet" href="styles.css">
 <base target="_parent">
 <footer>
-      <script>
-      window.onload = function lastChanged() {
-        let x = "last changed: " + document.lastModified;
-        document.getElementById("modifed-date").innerHTML = x;
-      }
-      </script>
+    <script>
+window.onload = function lastChanged() {
+    let x = "last changed: " + window.parent.lastModified;
+    document.getElementById("modifed-date").innerHTML = x;
+}
+</script>
       <a class="footer" href="https://git.meows.gay/eris/website-main/src/branch/main/main-page" target="_blank">source</a><a class="footer"> licensed under the </a><a class="footer" href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GPL</a> <br>
       <a class="footer" id="modifed-date"></a>
 </footer>
