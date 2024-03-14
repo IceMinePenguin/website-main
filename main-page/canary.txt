@@ -1,0 +1,9 @@
+I have not been served a warrant, court-issued subpoena, or otherwise legally
+compelled to provide any data, undermine any encryption, redirect requests under
+the supervision of any authority, or otherwise modify any of the hosted services
+on the meows.gay domain or subdomains. This canary will continue to be
+available at https://meows.gay/canary.txt as long as it is valid. For more
+information about warrant canaries, you can read more from the EFF here:
+https://www.eff.org/deeplinks/2014/04/warrant-canary-faq.
+
+This warrant canary is valid as of 13 March 2024 10:24:35 PM EDT
