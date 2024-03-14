@@ -75,7 +75,7 @@ a.footer {font-family: Arial, Helvetica, sans-serif; text-decoration: none; colo
 a.footer:link {text-decoration: underline}
 
 /*header title words*/
-a.header_title {font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: #1d0133; background: transparent; padding-right: 1em; margin-bottom: 0.2em}
+a.header_title {font-family: Arial, Helvetica, sans-serif; text-decoration: none; color: #1d0133; background: transparent; padding-right: 0.5em; padding-left: 0.5em; margin-bottom: 0.2em}
 a.header_title:hover {text-decoration: underline}
 
 /*generic inline links*/
