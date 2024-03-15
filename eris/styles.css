@@ -27,7 +27,7 @@ button:hover {
 }
 button:active {
     background-color: #A81167;
-    box-shadow: 0 0.1em #49115a;
-    transform: translateY(0.4em);
+    box-shadow: 0 0.2em #49115a;
+    transform: translateY(0.3em);
 }
 
