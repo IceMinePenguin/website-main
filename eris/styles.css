@@ -14,11 +14,12 @@ h2 {font-family: Arial, Helvetica, sans-serif; font-size: 2.5em; font-weight: bo
 
 button {
     border-radius: 18px;
-    padding: 0.5em;
+    padding: 0.7em;
+    cursor: pointer;
     font-size: 1em;
     color: #4f1e74;
     background-color: #ff75c3;
-    border: 0.1em solid #b42ada;
+    border: 0em;
     box-shadow: 0 0.5em #6c1983
 }
 button:hover {
