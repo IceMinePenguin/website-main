@@ -8,19 +8,6 @@
   <title>oneko.js</title>
     <link rel="stylesheet" href="/styles.css">
 <script>
-    var myToggle = false;
-
-    document.getElementById('bounce').onbounce = function() {
-
-    if (myToggle) {
-        document.getElementById('bounce').style.color="#410275"
-    }
-    else {
-        document.getElementById('bounce').style.color="#ff2f9a";
-    }
-
-    myToggle = !myToggle;};
-</script><script>
 function marqueeText() {
 var x = '';
 var i = 0;
@@ -37,7 +24,20 @@ window.onload = function marqueeWidth() {
 </script>
     </head>
     <body><marquee id="bounce" direction="left" scrollamount="2" scrolldelay="5" truespeed width="100%" behavior="alternate">enable javascript</marquee>
+<script>
+    var myToggle = false;
 
+    document.getElementById('bounce').onbounce = function() {
+
+    if (myToggle) {
+        document.getElementById('bounce').style.color="#410275"
+    }
+    else {
+        document.getElementById('bounce').style.color="#ff2f9a";
+    }
+
+    myToggle = !myToggle;};
+</script>
     <main>
         <h1>meow!! (welcome!!)</h1>
         <p>this is the personal website of eris meow!!!<br>to go to the meows.gay homepage, click <a href="https://meows.gay">here</a>.</p>
