@@ -13,15 +13,20 @@ h2 {font-family: Arial, Helvetica, sans-serif; font-size: 2.5em; font-weight: bo
 h2 {font-family: Arial, Helvetica, sans-serif; font-size: 2.5em; font-weight: bold; color: #FF4FF7;}
 
 button {
-    border-radius: 12px;
-    padding: 0.2em;
+    border-radius: 18px;
+    padding: 0.5em;
     font-size: 1em;
+    color: #4f1e74;
     background-color: #ff75c3;
     border: 0.1em solid #b42ada;
-    box-shadow: 0 0.3em #6c1983
+    box-shadow: 0 0.5em #6c1983
+}
+button:hover {
+    background-color: #D44395;
 }
 button:active {
-    background-color: #a81167;
+    background-color: #A81167;
     box-shadow: 0 0.1em #49115a;
-    transform: translateY(0.2em);
+    transform: translateY(0.4em);
 }
+
