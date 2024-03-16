@@ -96,32 +96,15 @@ div.landing {
     font-size: 3.6vw;
 }
 
-/* idk what this does lol
-div:after {
-    content: "";
-    display: inline-block;
-    width: 100%;
-}
-*/
-
-/*This is to flip text upside down*/
-.container {
-    display: flex;
-    justify-content: center;
-    /*align-items: center;*/
-    /*height: 100vh;*/
-}
 
 .backwards {
-    display: inline;
+    display: flex;
+    justify-content: center;
     /*font-size: 100px;*/
-    -moz-transform: scale(1, -1);
-    -webkit-transform: scale(1, -1);
-    -o-transform: scale(1, -1);
-    -ms-transform: scale(1, -1);
-    transform: scale(1, -1);
-}
-ul.landing {
-    font-family: Arial; sans-serif;
-    color: #a80be0;
+    -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+    padding-bottom: 0.3em;
 }
