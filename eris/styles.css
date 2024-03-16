@@ -31,3 +31,20 @@ button:active {
     transform: translateY(0.3em);
 }
 
+input.color {
+    border-radius: 18px;
+    height: 5em;
+    width: 5em;
+    padding: 0.7em;
+    cursor: pointer;
+    color: #4f1e74;
+    background-color: #ff75c3;
+    border: 0em;
+    box-shadow: 0 0.8em #6c1983;
+    transform: translateY(1.2em);
+
+}
+
+div.gays {
+    font-family: Arial, Helvetica, sans-serif; font-size: 1.4em;
+}
