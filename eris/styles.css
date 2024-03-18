@@ -7,6 +7,17 @@ body {
 
 }
 
+header {
+    background: #ff79d5;
+    font-size: 2em;
+    padding-bottom: 0.3em;
+}
+
+marquee {
+    text-shadow: -1px -1px 0 #ff01b3, 1px -1px 0 #ff01b3, -1px 1px 0 #ff01b3, 1px 1px 0 #ff01b3;
+    color: #410275
+}
+
 p {font-family: Arial, Helvetica, sans-serif; font-size: 1.4em; color: #AE43FF}
 h1 {font-family: Arial, Helvetica, sans-serif; font-size: 2.5em; font-weight: bold; color: #FF4FF7;}
 h2 {font-family: Arial, Helvetica, sans-serif; font-size: 2.5em; font-weight: bold; color: #FF4FF7;}
