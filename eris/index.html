@@ -87,13 +87,24 @@
         <font size="20">⚠️ THIS WEBSITE IS A WORK IN PROGRESS!!! ⚠️</font>
         <br>(obviously. i mean look at it.)
       </p>
+      <input class="text" id="notifInput" type="text" placeholder="send me a push notif..."> </input><button onclick="sendAndClear()">send!</button><script>
+      var inputBox = document.getElementById('notifInput');
+      function sendNotif(message) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", 'https://ntfy.meows.gay/websiteNotif', true);
+        xhr.setRequestHeader('Content-Type', 'text/plain');
+        xhr.send(message)
+      };
+      function sendAndClear() {sendNotif(inputBox.value); inputBox.value=''};
+      inputBox.addEventListener("keyup", function onEnter() {if (event.keyCode == 13) {sendAndClear();};}, false);
+      </script>
       <p>
         <a href="https://git.meows.gay/eris/website-main/src/branch/main/eris">source code</a>
       </p>
       <div class='gays' id='gay'>
         <span>​</span>
       </div>
-      <button onclick="addGay(); runClickerSound(); sendClickerNotif('clicker pressed :3, color: ' + document.getElementById('gaycolor').value); window.scrollTo(0, document.body.scrollHeight);">gay ass button</button>
+      <button onclick="addGay(); runClickerSound(); window.scrollTo(0, document.body.scrollHeight);">gay ass button</button>
       <script>
         function addGay() {
           const para = document.createElement("span");
@@ -110,13 +121,6 @@
         function runClickerSound() {
           clickerSound.cloneNode().play();
         }
-      </script>
-      <script>
-        function sendClickerNotif(message) {
-        var xhr = new XMLHttpRequest();
-        xhr.open("POST", 'https://ntfy.meows.gay/clickerPressed', true);
-        xhr.setRequestHeader('Content-Type', 'text/plain');
-        xhr.send(message)};
       </script>
       <input type="color" class="color" id="gaycolor" value="#AE43FF""></input>
     </footer>
