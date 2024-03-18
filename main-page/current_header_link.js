@@ -1,0 +1,1 @@
+document.getElementById('header').onload = function currentHeaderLink() {document.getElementById('header').contentWindow.document.querySelectorAll("a[href='" + window.location.pathname +"']")[0].classList.add("header_current")}
