@@ -62,12 +62,13 @@ window.onload = function marqueeWidth() {
     <footer>
     <p><font size="20">⚠️ THIS WEBSITE IS A WORK IN PROGRESS!!! ⚠️</font><br>(obviously. i mean look at it.)</p>
     <p><a href="https://git.meows.gay/eris/website-main/src/branch/main/eris">source code</a></p><div class='gays' id='gay'></div>
-         <button onclick="addGay(); window.scrollTo(0, document.body.scrollHeight);">gay ass button</button><script>function addGay() {
+         <button onclick="addGay(); runClickerSound(); window.scrollTo(0, document.body.scrollHeight);">gay ass button</button><script>function addGay() {
 const para = document.createElement("span");
 const node = document.createTextNode("gay ");
 para.appendChild(node);
 para.setAttribute('style', 'color: ' + document.getElementById("gaycolor").value);
 const element = document.getElementById("gay");
-element.appendChild(para);} </script> <input type="color" class="color" id="gaycolor" value="#AE43FF""></input>
+element.appendChild(para);} </script><script>var clickerSound = new Audio('https://meows.gay/media/clicker.mp3');
+function runClickerSound() {clickerSound.play();}</script> <input type="color" class="color" id="gaycolor" value="#AE43FF""></input>
     </footer><script data-cat="https://meows.gay/images/oneko.gif" src="/oneko.js">turn on javascriiipptttttt</script><br></body>
 </html>
