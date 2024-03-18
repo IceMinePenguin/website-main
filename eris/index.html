@@ -11,7 +11,7 @@
 function marqueeText() {
 var x = '';
 var i = 0;
-while(i <= (window.innerWidth/47)-2) {
+while(i <= (window.innerWidth/95)-2) {
 x = x + 'gay ';
 i = i + 1;
 };
@@ -32,14 +32,10 @@ window.onload = function marqueeWidth() {
     document.getElementById('bounce').onbounce = function() {
 
     if (myToggle) {
-        document.getElementById('bounce').style.color="#410275";
-        document.getElementById('bounce').setAttribute('style', 'text-shadow: -1px -1px 0 #ff01b3, 1px -1px 0 #ff01b3, -1px 1px 0 #ff01b3, 1px 1px 0 #ff01b3');
-
-
+        document.getElementById('bounce').setAttribute('style', 'text-shadow: -1px -1px 0 #ff01b3, 1px -1px 0 #ff01b3, -1px 1px 0 #ff01b3, 1px 1px 0 #ff01b3; color: #410275');
     }
     else {
-        document.getElementById('bounce').style.color="#ff01b3";
-        document.getElementById('bounce').setAttribute('style', 'text-shadow: -1px -1px 0 #410275, 1px -1px 0 #410275, -1px 1px 0 #410275, 1px 1px 0 #410275');
+        document.getElementById('bounce').setAttribute('style', 'text-shadow: -1px -1px 0 #410275, 1px -1px 0 #410275, -1px 1px 0 #410275, 1px 1px 0 #410275; color: #ff01b3');
     }
     if ((!meowsToggle && !myToggle) && (Math.random() < 0.1)) {
         document.getElementById('bounce').innerHTML="meow";
