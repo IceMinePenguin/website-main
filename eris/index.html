@@ -93,7 +93,7 @@
       <div class='gays' id='gay'>
         <span>​</span>
       </div>
-      <button onclick="addGay(); runClickerSound(); sendClickerNotif(); window.scrollTo(0, document.body.scrollHeight);">gay ass button</button>
+      <button onclick="addGay(); runClickerSound(); sendClickerNotif('clicker pressed :3'); window.scrollTo(0, document.body.scrollHeight);">gay ass button</button>
       <script>
         function addGay() {
           const para = document.createElement("span");
@@ -112,11 +112,11 @@
         }
       </script>
       <script>
-        function sendClickerNotif() {
+        function sendClickerNotif(message) {
         var xhr = new XMLHttpRequest();
         xhr.open("POST", 'https://ntfy.meows.gay/clickerPressed', true);
         xhr.setRequestHeader('Content-Type', 'text/plain');
-        xhr.send('clicker pressed :3')};
+        xhr.send(message)};
       </script>
       <input type="color" class="color" id="gaycolor" value="#AE43FF""></input>
     </footer>
