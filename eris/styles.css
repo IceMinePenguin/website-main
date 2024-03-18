@@ -59,7 +59,7 @@ input.color {
 input.text {
     border-radius: 18px;
     padding: 0.7em;
-    cursor: pointer;
+    cursor: text;
     font-size: 1em;
     color: #4f1e74;
     background-color: #ff75c3;
