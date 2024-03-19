@@ -78,6 +78,14 @@ input.text {
     margin-bottom: 1em
 }
 
+input.text:hover {
+    background-color: #D44395;
+}
+
+input.text:active {
+    background-color: #A81167;
+}
+
 div.badges {
     margin: auto;
     display: block;
