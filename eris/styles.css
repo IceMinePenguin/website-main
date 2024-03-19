@@ -64,7 +64,8 @@ input.text {
     color: #4f1e74;
     background-color: #ff75c3;
     border: 0em;
-    box-shadow: 0 0.5em #6c1983
+    box-shadow: 0 0.5em #6c1983;
+    margin-bottom: 1em
 }
 
 div.gays {
