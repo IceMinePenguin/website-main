@@ -46,14 +46,24 @@ input.color {
     border-radius: 18px;
     height: 5em;
     width: 5em;
-    padding: 0.7em;
+    padding: 1.2em;
     cursor: pointer;
     color: #4f1e74;
     background-color: #ff75c3;
     border: 0em;
-    box-shadow: 0 0.8em #6c1983;
-    transform: translateY(1.2em);
+    box-shadow: 0 0.9em #6c1983;
+    transform: translateY(0.6em);
 
+}
+
+input.color:hover {
+    background-color: #D44395;
+}
+
+input.color:active {
+    background-color: #A81167;
+    box-shadow: 0 0.2em #49115a;
+    transform: translateY(1.3em);
 }
 
 input.text {
