@@ -92,9 +92,14 @@ div.badges {
     max-width: 50em;
 }
 
-div.badges>img {
+div.badges > img {
     height: 31px;
     width: 88px;
+}
+
+div.badges > a {
+    vertical-align: bottom;
+    display: inline;
 }
 
 div.gays {
