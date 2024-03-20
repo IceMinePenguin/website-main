@@ -86,6 +86,26 @@ input.text:active {
     background-color: #A81167;
 }
 
+input.integer {
+    border-radius: 18px;
+    padding: 0.7em;
+    cursor: text;
+    font-size: 1em;
+    color: #4f1e74;
+    background-color: #ff75c3;
+    border: 0em;
+    box-shadow: 0 0.5em #6c1983;
+    margin-bottom: 1em
+}
+
+input.integer:hover {
+    background-color: #D44395;
+}
+
+input.integer:active {
+    background-color: #A81167;
+}
+
 div.badges {
     margin: auto;
     display: block;

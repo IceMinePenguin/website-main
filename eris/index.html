@@ -77,16 +77,19 @@
       <div class='gays' id='gay'>
         <span>​</span>
       </div>
-      <button onclick="addGay(); runClickerSound(); window.scrollTo(0, document.body.scrollHeight);">gay ass button</button>
+      <button onclick="addGay(parseInt(document.getElementById('gaynumber').value)); runClickerSound(); window.scrollTo(0, document.body.scrollHeight);">gay ass button</button>
       <script>
-        function addGay() {
-          const para = document.createElement("span");
-          const node = document.createTextNode("gay ");
-          para.appendChild(node);
-          para.setAttribute('style', 'color: ' + document.getElementById("gaycolor").value);
-          const element = document.getElementById("gay");
-          element.appendChild(para);
-        }
+      //add gay spans with correct amount and color
+        function addGay(gayAmount) {
+          for(let i = 1; i <= gayAmount; i++) {
+            const para = document.createElement("span");
+            const node = document.createTextNode("gay ");
+            para.appendChild(node);
+            para.setAttribute('style', 'color: ' + document.getElementById("gaycolor").value);
+            const element = document.getElementById("gay");
+            element.appendChild(para);
+          };
+        };
       </script>
       <script>
         var clickerSound = new Audio('https://meows.gay/media/clicker.mp3');
@@ -95,7 +98,16 @@
           clickerSound.cloneNode().play();
         }
       </script>
-      <input type="color" class="color" id="gaycolor" value="#AE43FF""></input>
+      <script>
+      //make sure input is a number
+      function isNumberKey(evt) {
+  var charCode = (evt.which) ? evt.which : evt.keyCode
+  if (charCode > 31 && (charCode < 48 || charCode > 57))
+    return false;
+  return true;
+}
+      </script>
+      <input type="color" class="color" id="gaycolor" value="#AE43FF""></input> <input id="gaynumber" class="integer" placeholder='enter a number...' value="1" type="text" min="0" onkeypress='return isNumberKey(event);'></input>
     </footer>
     <script data-cat=" https://meows.gay/images/oneko.gif" src="/oneko.js">turn on javascriiipptttttt</script>
       <br>
