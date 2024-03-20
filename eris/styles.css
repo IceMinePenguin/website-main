@@ -88,6 +88,8 @@ input.text:active {
 
 input.integer {
     border-radius: 18px;
+    text-align: center;
+    display: inline;
     padding: 0.7em;
     cursor: text;
     font-size: 1em;
@@ -104,6 +106,10 @@ input.integer:hover {
 
 input.integer:active {
     background-color: #A81167;
+}
+
+div.textbox {
+    display: inline-block;
 }
 
 div.badges {
